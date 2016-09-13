@@ -1,0 +1,19 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	/*background-image: url("images/263H.jpg");*/
+	background-color: #a2cdd6;
+	background-size: cover;
+	color: black;
+}
+
+.footer {
+  border: 1px solid black;
+  background-color: black;
+}
+
+.footer_text {
+  color: gray;
+  padding-left: 10px;
+  padding-top: 5px;
+}
