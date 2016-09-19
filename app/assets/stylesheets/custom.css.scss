@@ -17,6 +17,17 @@ $navbar-default-bg: black;
   color: white;
 }
 
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .article-actions {
 border-top: 1px solid #eaeaea;
 padding-top: 5px;
