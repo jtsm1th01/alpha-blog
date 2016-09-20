@@ -29,8 +29,13 @@ $navbar-default-bg: black;
 }
 
 .article-actions {
-border-top: 1px solid #eaeaea;
-padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.article-metadata {
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
 }
 
 .footer {
