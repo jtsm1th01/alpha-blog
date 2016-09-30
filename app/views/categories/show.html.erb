@@ -1,1 +1,17 @@
-show
+<h1 align="center"><%= "Category: " + @category.name %></h1>
+
+<% if current_user.admin? %>
+  <div align="center">
+    <%= link_to 'Edit Category', edit_category_path(@category), class: "btn btn-danger btn-sm" %>
+  </div>
+<% end %>
+
+<div align="center">
+  <%= will_paginate @category_articles %>
+</div>
+
+<%= render 'articles/articles', obj: @category_articles %>
+
+<div align="center">
+  <%= will_paginate @category_articles %>
+</div>

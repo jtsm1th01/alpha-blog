@@ -8,6 +8,7 @@ def setup
 end
 
 test "should get categories index" do
+  session[:user_id] = @user.id
   get :index
   assert_response :success
 end
@@ -19,6 +20,7 @@ test "should get new" do
 end
 
 test "should get show" do
+  session[:user_id] = @user.id
   get(:show, {'id' => @category.id})
   assert_response :success
 end
